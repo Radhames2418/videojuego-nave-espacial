@@ -30,10 +30,23 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if ((col.gameObject.tag == "Limit") || (col.gameObject.tag == "Ballon"))
+        if ((col.gameObject.tag == "Ballon"))
         {
             Die();
+
         }
+        else if ((col.gameObject.tag == "Limit"))
+        {
+
+            Die();
+
+        }
+        else if ((col.gameObject.tag == "blue ballon"))
+        {
+            Die();
+
+        }
+
     }
 
     public void Die()

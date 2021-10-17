@@ -26,10 +26,18 @@ public class globo1 : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if ((col.gameObject.tag == "Bullet") || (col.gameObject.tag == "Limit"))
+        if ((col.gameObject.tag == "Bullet"))
         {
             Die();
+
+
+        } else if ((col.gameObject.tag == "Limit")) {
+
+            Die();
+
         }
+
+
     }
 
     public void Die()

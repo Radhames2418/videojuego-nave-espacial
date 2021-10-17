@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Ballon
   - Spawn
+  - blue ballon
   layers:
   - Default
   - TransparentFX
