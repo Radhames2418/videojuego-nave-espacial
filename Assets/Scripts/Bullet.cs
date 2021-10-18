@@ -11,7 +11,6 @@ public class Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
     public void ChageDirection()
     {
         xSpeed *= 1;
@@ -32,6 +31,7 @@ public class Bullet : MonoBehaviour
     {
         if ((col.gameObject.tag == "Ballon"))
         {
+            Helio.helio += 1; 
             Die();
 
         }
@@ -43,6 +43,7 @@ public class Bullet : MonoBehaviour
         }
         else if ((col.gameObject.tag == "blue ballon"))
         {
+            Helio.helio += 10;
             Die();
 
         }
