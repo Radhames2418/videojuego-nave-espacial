@@ -52,9 +52,6 @@ public class Controlador_nave : MonoBehaviour
             velocidad = 0f;
             gameManager.gameOver = true;
             Destroy(gameObject);
-
-
-
         }
 
         if ((collision.gameObject.tag == "Lateral"))

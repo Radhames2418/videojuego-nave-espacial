@@ -9,6 +9,7 @@ TagManager:
   - Ballon
   - Spawn
   - blue ballon
+  - Nave
   layers:
   - Default
   - TransparentFX

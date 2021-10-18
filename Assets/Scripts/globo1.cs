@@ -36,8 +36,6 @@ public class globo1 : MonoBehaviour
             Die();
 
         }
-
-
     }
 
     public void Die()
